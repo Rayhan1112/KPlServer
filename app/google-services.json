@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "676602397741",
+    "firebase_url": "https://kpl-live-default-rtdb.firebaseio.com",
+    "project_id": "kpl-live",
+    "storage_bucket": "kpl-live.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676602397741:android:2d116f5260b90da836e4a4",
+        "android_client_info": {
+          "package_name": "com.kpllive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676602397741-oc98og36tfkfp073fgaq4baafh44ikcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9cVRFIIExQWctygt7BBbTfIV5Ekv8wGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676602397741-oc98og36tfkfp073fgaq4baafh44ikcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676602397741:android:9ecc64562cace29536e4a4",
+        "android_client_info": {
+          "package_name": "com.kplserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676602397741-oc98og36tfkfp073fgaq4baafh44ikcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9cVRFIIExQWctygt7BBbTfIV5Ekv8wGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676602397741-oc98og36tfkfp073fgaq4baafh44ikcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="22dp"
+            android:text="Match Name"
+            android:layout_marginTop="40dp"
+            android:textColor="#FF0000"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginLeft="80dp"/>
+        <EditText
+            android:id="@+id/matchname"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="80dp"
+            android:hint="Matchname"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="22dp"
+            android:text="Striker"
+            android:textColor="#FF0000"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/player1"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="40dp"
+            android:hint="Striker"
+            tools:ignore="TouchTargetSizeCheck" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="22dp"
+            android:text="Non Striker"
+            android:textColor="#FF0000"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/player2"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="40dp"
+            android:hint="Non Striker"
+            tools:ignore="TouchTargetSizeCheck" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="22dp"
+            android:text="Bowler Name"
+            android:textColor="#FF0000"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/bowler"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="40dp"
+            android:hint="Bowler Name"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="22dp"
+            android:text="Total Score"
+            android:textColor="#FF0000"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/total"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="40dp"
+            android:hint="Total SCore"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:onClick="setvalue"
+            android:layout_marginLeft="100dp"
+            android:text="submit"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
